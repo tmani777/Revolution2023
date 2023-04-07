@@ -1,0 +1,8 @@
+---
+- name: To perform automation
+  hosts: all
+  become: true
+  tasks:
+    - name: To copy the files and compare using python libs
+      shell: hostname
+
